@@ -4,3 +4,5 @@
 /SendLocalMessage/obj
 *.pdb
 /SendLocalMessage/bin/x64/Release/SendLocalMessage.exe.config
+/.vs
+/SendLocalMessage/.vs/SendLocalMessage.csproj.dtbcache.json
