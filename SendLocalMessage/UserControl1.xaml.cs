@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.InteropServices.ComTypes;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +18,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml;
 using static System.Net.Mime.MediaTypeNames;
+
+
 
 namespace SendLocalMessage
 {
@@ -31,16 +36,28 @@ namespace SendLocalMessage
         {
             AppWindow = this;
             InitializeComponent();
-            string message = "Angående Net - ID som finns i din dator." + Environment.NewLine + "Programvaran kommer att avinstalleras den 30 / 6 och om du då har behov av att fortsatt använda det så ombeds du kontakta it-support så hjälper vi till att installera det nya E - id på din dator.";
 
-            this.textfield.Text = message;
+            string message = "Angående Net-ID som finns i din dator." + Environment.NewLine + "Programvaran kommer att avinstalleras den 30/6 och om du då har behov av att fortsatt använda det så ombeds du kontakta it-support så hjälper vi till att installera det nya E-id på din dator.";
+            string kontakt1 = Environment.NewLine + Environment.NewLine + "Kontakt : itsupport@toreboda.se";
+            string kontakt2 = Environment.NewLine + "Telefon : 0501-755070";
+
+            //test
+            this.textfield.Text = message + kontakt1 + kontakt2;
+
+            //kommunlogo
+
+            Assembly Myassembly = Assembly.GetExecutingAssembly();
+            Stream Mystreem = Myassembly.GetManifestResourceStream("SendLocalMessage.mtg-logo.jpg");
+            //Bitmap bmp = new Bitmap(myStream);
+            //System.Windows.Controls.Image img = new Image(Mystreem);
+            BitmapImage Myimage = new BitmapImage();
+
+
+            //this.kommunlogo.Source = Mystreem.
         }
-        public static void SetTextFieldData(string text)
-        {
-            //this.textfield.Text = text;
-            UserControl1 userControl1 = new UserControl1();
-            userControl1.textfield.Text = text;
-        }
+
+
+
         private void Okbutton_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Stäng");
