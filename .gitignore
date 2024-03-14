@@ -3,3 +3,4 @@
 /SendLocalMessage/bin/Debug
 /SendLocalMessage/obj
 *.pdb
+/SendLocalMessage/bin/x64/Release/SendLocalMessage.exe.config
