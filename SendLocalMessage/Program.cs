@@ -17,9 +17,12 @@ namespace SendLocalMessage
         {
             try
             {
+                //starta upp fönstret
                 QuestingWindow.Main();
-
-                //UserControl1 userControl1 = new UserControl1();
+                
+                
+                //fyll rutorna med formatterad text
+                //SendLocalMessage.UserControl1.SetTextFieldData("testar");
 
             }
             catch (Exception e) 

@@ -25,7 +25,13 @@ namespace SendLocalMessage
                 WindowStartupLocation = WindowStartupLocation.CenterScreen,
                 Topmost = true
             };
+
             window.ShowDialog();
+
+
+
+
+
         }
     }
 }

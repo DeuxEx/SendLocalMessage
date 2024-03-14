@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -12,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace SendLocalMessage
 {
@@ -27,9 +30,23 @@ namespace SendLocalMessage
         public UserControl1()
         {
             AppWindow = this;
-
-
             InitializeComponent();
+            string message = "Angående Net - ID som finns i din dator." + Environment.NewLine + "Programvaran kommer att avinstalleras den 30 / 6 och om du då har behov av att fortsatt använda det så ombeds du kontakta it-support så hjälper vi till att installera det nya E - id på din dator.";
+
+            this.textfield.Text = message;
         }
+        public static void SetTextFieldData(string text)
+        {
+            //this.textfield.Text = text;
+            UserControl1 userControl1 = new UserControl1();
+            userControl1.textfield.Text = text;
+        }
+        private void Okbutton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Stäng");
+        }
+
+
+
     }
 }

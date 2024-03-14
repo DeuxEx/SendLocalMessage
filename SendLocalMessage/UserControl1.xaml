@@ -6,8 +6,10 @@
              xmlns:local="clr-namespace:SendLocalMessage"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="450" Width="450" Height="300">
+    
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="300" Width="450">
-        <TextBox x:Name="textfield" FontSize="14" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Height="200" BorderThickness="0" IsEnabled="False" Text="Angående Net-ID som finns i din dator. Programvaran kommer att avinstalleras den 30/6 och om du då har behov av att fortsatt använda det så ombeds du kontakta it-support så hjälper vi till att installera det nya E-id på din dator." />
-        <Button x:Name="okbutton" Content="Okej" HorizontalAlignment="Left" Margin="200,220,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textfield" FontSize="14" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Height="200" BorderThickness="0" IsEnabled="False" Text="" />
+        <Button x:Name="okbutton" Content=" Okej " HorizontalAlignment="Left" Margin="200,220,0,0" VerticalAlignment="Top" Click="Okbutton_Click"/>
+        <Image HorizontalAlignment="Left" Height="67" Margin="314,128,0,0" VerticalAlignment="Top" Width="76" Source="/mtg-logo.jpg" />
     </Grid>
 </UserControl>
