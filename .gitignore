@@ -2,3 +2,4 @@
 /.vs/SendLocalMessage/v17
 /SendLocalMessage/bin/Debug
 /SendLocalMessage/obj
+*.pdb
