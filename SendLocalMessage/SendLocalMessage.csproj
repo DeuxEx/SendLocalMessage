@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B8902C6E-A4B2-4246-AEFB-3BBE2559B039}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>SendLocalMessage</RootNamespace>
     <AssemblyName>SendLocalMessage</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
