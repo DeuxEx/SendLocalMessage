@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SendLocalMessage")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("SendLocalMessage")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("MTG-IT")]
 [assembly: AssemblyProduct("SendLocalMessage")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
