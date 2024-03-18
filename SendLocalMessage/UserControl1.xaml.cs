@@ -50,19 +50,15 @@ namespace SendLocalMessage
 
             Assembly Myassembly = Assembly.GetExecutingAssembly();
             Stream Mystreem = Myassembly.GetManifestResourceStream("SendLocalMessage.mtg-logo.jpg");
-            //Bitmap bmp = new Bitmap(myStream);
-            //System.Windows.Controls.Image img = new Image(Mystreem);
             BitmapImage Myimage = new BitmapImage();
-
-
-            //this.kommunlogo.Source = Mystreem.
         }
 
 
 
         private void Okbutton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Stäng");
+            //MessageBox.Show("Stäng");
+            Environment.Exit(0);
         }
 
 
