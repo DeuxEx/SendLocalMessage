@@ -22,7 +22,7 @@ namespace SendLocalMessage
         {
             AppWindow = this;
             InitializeComponent();
-
+            
             string message = "Angående Net-ID som finns i din dator." + Environment.NewLine + 
                              "Programvaran kommer att avinstalleras den 30/6 och om du då har behov av att fortsatt använda det så ombeds du " +
                              "kontakta it-support så hjälper vi till att installera det nya E-id på din dator." + Environment.NewLine;
