@@ -17,7 +17,7 @@ namespace SendLocalMessage
 
 
             string taskName = "SendLocalMessage";
-            string launchexefile = @"C:\Users\Admin\source\repos\DeuxEx\SendLocalMessage\SendLocalMessage\bin\Debug\SendLocalMessage.exe";
+            string launchexefile = @"C:\Users\Admin\source\repos\DeuxEx\SendLocalMessage\SendLocalMessage\bin\x64\Release\SendLocalMessage.exe";
             TaskDefinition taskDefinition = TaskService.Instance.NewTask();
 
             taskDefinition.RegistrationInfo.Author = "MTG-IT";

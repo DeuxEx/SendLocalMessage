@@ -22,8 +22,8 @@ namespace SendLocalMessage
 
         /*
          Anrop exempel
-        C:\Users\Admin\source\repos\DeuxEx\SendLocalMessage\SendLocalMessage\bin\Debug\SendLocalMessage.exe rubriktext=<Angående Net-ID som finns i din dator.> brodtext=<Programvaran kommer att avinstalleras den 30/6 och om du då har behov av att fortsatt använda det så ombeds du kontakta it-support så hjälper vi till att installera det nya E-id på din dator.> kontakttext=<Kontakt : itsupport@toreboda.se> telefontext=<Telefon : 0501-755070> action=generate 
-         */
+        .\SendLocalMessage.exe rubriktext=Angående BajsNet-ID som finns i din dator.slutrubriktext brodtext=Programvaran kommer att avinstalleras den 30/6 och om du då har behov av att fortsatt använda det så ombeds du kontakta it-support så hjälper vi till att installera det nya E-id på din dator.slutbrodtext kontakttext=Kontakt : itsupport@toreboda.seslutkontakttext telefontext=Telefon : 0501-755070sluttelefontext action=generate         
+        */
 
 
 
