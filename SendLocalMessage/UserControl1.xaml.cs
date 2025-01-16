@@ -23,11 +23,10 @@ namespace SendLocalMessage
             AppWindow = this;
             InitializeComponent();
             
-            string message = "Angående Net-ID som finns i din dator." + Environment.NewLine + 
-                             "Programvaran kommer att avinstalleras den 30/6 och om du då har behov av att fortsatt använda det så ombeds du " +
-                             "kontakta it-support så hjälper vi till att installera det nya E-id på din dator." + Environment.NewLine;
-            string kontakt1 = Environment.NewLine + Environment.NewLine + "Kontakt : itsupport@toreboda.se";
-            string kontakt2 = Environment.NewLine + "Telefon : 0501-755070";
+            string message = Program.rubriktext + Environment.NewLine + 
+                             Program.brodtext + Environment.NewLine;
+            string kontakt1 = Environment.NewLine + Environment.NewLine + Program.kontakttext;
+            string kontakt2 = Environment.NewLine + Program.telefontext;
 
             //test
             this.textfield.Text = message + kontakt1 + kontakt2;
