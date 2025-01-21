@@ -25,6 +25,7 @@ namespace SendLocalMessage
         .\SendLocalMessage.exe rubriktext=Angående BajsNet-ID som finns i din dator.slutrubriktext brodtext=Programvaran kommer att avinstalleras den 30/6 och om du då har behov av att fortsatt använda det så ombeds du kontakta it-support så hjälper vi till att installera det nya E-id på din dator.slutbrodtext kontakttext=Kontakt : itsupport@toreboda.seslutkontakttext telefontext=Telefon : 0501-755070sluttelefontext action=generate         
         */
 
+        //test
 
 
         [STAThread]
