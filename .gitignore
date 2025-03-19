@@ -15,3 +15,5 @@
 *.lref
 *.txt
 /SendLocalMessage/obj/x64/Release
+/.vs/SendLocalMessage/CopilotIndices/17.13.439.2385/CodeChunks.db
+/.vs/SendLocalMessage/CopilotIndices/17.13.439.2385
